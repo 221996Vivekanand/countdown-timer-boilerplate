@@ -10,7 +10,7 @@ class TimerInput extends React.Component {
     return (
       <div style={{marginLeft:100}}>
         <h3>Input your desired time</h3>
-        <input type="number" value={this.props.value} onChange={this.props.handleChange} required />
+        <input type="number" value={this.props.value} onChange={this.props.handleChange} placeHolder="Enter Desire Time" required />
       </div>
     );
   }
